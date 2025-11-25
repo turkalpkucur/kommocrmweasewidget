@@ -194,6 +194,8 @@ define([
 
                 return new Promise(function (resolve) {
                   wrapDiv.prepend(
+
+
                     _this.templates.render("settings.base", {
                       prefix: prefix,
                       langs: _this.i18n("settings"),
@@ -211,67 +213,6 @@ define([
                         ),
                       }),
 
-                      entity: _this.templates.twig.select({
-                        block: "entity",
-                        code: "type",
-                        items: [
-                          {
-                            id: 1,
-                            option: _this.i18n(
-                              "settings.entity.options.contact"
-                            ),
-                          },
-                          {
-                            id: 2,
-                            option: _this.i18n("settings.entity.options.lead"),
-                          },
-                        ],
-                        selected: _this.getNested(
-                          _this.info.params,
-                          "entity.type",
-                          1
-                        ),
-                      }),
-                      responsible: _this.templates.twig.dropdown({
-                        block: "tasks",
-                        code: "responsible",
-                        title_empty: _this.i18n("settings.responsible.select"),
-                        title_numeral: _this.i18n(
-                          "settings.responsible.numeral"
-                        ),
-                        name_is_array: true,
-                        items: users.filter(function (user) {
-                          user.name =
-                            "params[tasks][responsible][" + user.id + "]";
-                          user.is_checked = !!_this.getNested(
-                            _this.info.params,
-                            "tasks.responsible",
-                            {}
-                          )[user.id];
-
-                          return user;
-                        }),
-                      }),
-                      type: _this.templates.twig.select({
-                        block: "tasks",
-                        code: "type",
-                        items: tasks,
-                        selected: _this.getNested(
-                          _this.info.params,
-                          "tasks.type",
-                          1
-                        ),
-                      }),
-                      text: _this.templates.twig.textarea({
-                        block: "tasks",
-                        code: "text",
-                        placeholder: _this.i18n("settings.text.placeholder"),
-                        value: _this.getNested(
-                          _this.info.params,
-                          "tasks.text",
-                          ""
-                        ),
-                      }),
                       template: {
                         name: _this.templates.twig.input({
                           block: "template",
