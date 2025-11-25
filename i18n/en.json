@@ -33,7 +33,6 @@
       "desc": "Select the type of task to assign"
     },
     "responsible": {
-      "title": "Responsible user",
       "desc": "Assign a user responsible for this task",
       "select": "Select users",
       "numeral": "user,user,users",

@@ -33,7 +33,7 @@
       "desc": "Elige el tipo de tarea a asignar "
     },
     "responsible": {
-      "title": "Usuario responsable",
+ 
       "desc": "Asigna un usuario responsable para esta tarea",
       "select": "Usuarios seleccionados ",
       "numeral": "usuario,usuario,usuarios",

@@ -33,7 +33,7 @@
       "desc": "Selecione o tipo de tarefa que será atribuida"
     },
     "responsible": {
-      "title": "Usuário responsável",
+ 
       "desc": "Escolha o usuário responsável por esta tarefa",
       "select": "Usuários selecionados",
       "numeral": "usuário,usuário,usuários",
