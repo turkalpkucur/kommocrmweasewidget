@@ -44,21 +44,16 @@
       "placeholder": "Descrição da tarefa…"
     },
     "template": {
-      "title": "Modelos de chat",
-      "desc": "Crie um modelo de chat para enviar aos seus clientes",
+ 
       "name": {
-        "title": "Nome do modelo",
-        "desc": "Insira o nome do modelo que aparecerá no perfil"
+ 
+ 
       },
       "text": {
         "title": "Texto da mensagem",
         "desc": "Escreva a mensagem que será enviada ao cliente",
         "placeholder": "Mensagem…"
-      },
-      "list": {
-        "title": "Lista de modelos criados"
-      },
-      "create": "Criar um modelo"
+      } 
     },
     "errors": {
       "template_fields_required": "Insira o nome do modelo e o texto da mensagem para continuar"

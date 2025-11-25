@@ -43,21 +43,16 @@
       "placeholder": "Task description..."
     },
     "template": {
-      "title": "Chat templates",
-      "desc": "Create a chat template to send to your clients",
+ 
       "name": {
-        "title": "Template name",
-        "desc": "Enter the template name that will be shown in the profile"
+ 
+ 
       },
       "text": {
         "title": "Message text",
         "desc": "Write the message text that will be sent to the client",
         "placeholder": "Message..."
-      },
-      "list": {
-        "title": "List of created templates"
-      },
-      "create": "Create a template"
+      } 
     },
     "errors": {
       "template_fields_required": "Enter the template name and message text to continue."
