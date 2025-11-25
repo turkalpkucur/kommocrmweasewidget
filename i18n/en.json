@@ -40,7 +40,6 @@
     },
     "text": {
       "title": "Task description",
-      "desc": "Write the description or leave the field empty",
       "placeholder": "Task description..."
     },
     "template": {

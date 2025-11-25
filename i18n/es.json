@@ -41,7 +41,6 @@
     },
     "text": {
       "title": "Descripción de la tarea",
-      "desc": "Escribe una descripción o deja el campo vacio",
       "placeholder": "Descripción de la tarea..."
     },
     "template": {

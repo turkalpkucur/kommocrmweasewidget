@@ -41,7 +41,6 @@
     },
     "text": {
       "title": "Descrição da tarefa",
-      "desc": "Escreva a descrição ou deixe o campo em branco",
       "placeholder": "Descrição da tarefa…"
     },
     "template": {
