@@ -49,8 +49,8 @@
  
       },
       "text": {
-        "title": "Message text",
-        "desc": "Write the message text that will be sent to the client",
+ 
+ 
         "placeholder": "Message..."
       } 
     },

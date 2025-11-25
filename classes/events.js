@@ -187,28 +187,7 @@ define(["moment", "lib/components/base/modal"], function (Moment, Modal) {
      * Get birthday information based on current date.
      * @returns {Object} - Contains information if today is a birthday and the current date.
      */
-    getBirthdayInfo() {
-      const fieldId = parseInt(
-        this.widget.getNested(this.widget.info.params, "field.id", "")
-      );
-
-      const $wrap = $('.linked-form__field[data-id="' + fieldId + '"]');
-      const filtered = $wrap.filter(function () {
-        const formattedDate = Moment().format(
-          APP.system.format.date.date_short
-        );
-        const dayMonth = $(this).find("input").val().slice(0, 5);
-
-        return dayMonth === formattedDate;
-      });
-
-      const currentDate = Moment().format(APP.system.format.date.date);
-
-      return {
-        isBirthday: filtered.length > 0,
-        currentDate: currentDate,
-      };
-    }
+ 
 
     /**
      * Handle the card view, create tasks if it's a birthday.
@@ -216,9 +195,7 @@ define(["moment", "lib/components/base/modal"], function (Moment, Modal) {
     card() {
       const _this = this;
 
-      const { isBirthday } = _this.getBirthdayInfo();
-
-      if (isBirthday) {
+   
         let entityType = parseInt(
           _this.widget.getNested(_this.widget.info.params, "entity.type", 2)
         );
@@ -242,7 +219,7 @@ define(["moment", "lib/components/base/modal"], function (Moment, Modal) {
         ) {
           _this.createTask(isBirthday);
         }
-      }
+    
     }
 
     /**
@@ -252,7 +229,7 @@ define(["moment", "lib/components/base/modal"], function (Moment, Modal) {
     createTask(isBirthday) {
       const _this = this;
 
-      let { currentDate } = _this.getBirthdayInfo();
+      let { currentDate } = new Date();
 
       if (isBirthday) {
         const taskType = parseInt(

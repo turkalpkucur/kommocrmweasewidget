@@ -270,7 +270,7 @@ define([
        */
       init: function () {
         if (APP.widgets.system.area === "lcard") {
-          const isBirthday = _this.events.getBirthdayInfo().isBirthday;
+ 
 
           _this.templates
             .preload()
@@ -281,17 +281,13 @@ define([
                 },
                 body: "",
                 render: _this.templates.render("widget_right_panel", {
-                  button: isBirthday
-                    ? _this.templates.twig.button({
+                  button:  _this.templates.twig.button({
                       block: "button",
                       code: "congratulate",
                       text: _this.i18n("settings.widget_panel.congratulate"),
                       value: 1,
-                    })
-                    : "",
-                  text: isBirthday
-                    ? _this.i18n("settings.widget_panel.birthday")
-                    : _this.i18n("settings.widget_panel.not_birthday"),
+                    }) ,
+                  text:  _this.i18n("settings.widget_panel.birthday"),
                 }),
               });
             })
