@@ -15,13 +15,7 @@
     "not_active": "Install the widget to begin setup.",
     "lead": "Lead",
     "contact": "Contact",
-    "field": {
-    
  
- 
-      "or": "or",
-      "create": "Add new field"
-    },
     "entity": {
       "options": {
         "contact": "Contact",

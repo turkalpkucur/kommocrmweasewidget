@@ -15,13 +15,7 @@
     "not_active": "Instala el widget para empezar la instalación",
     "lead": "Lead",
     "contact": "Contacto",
-    "field": {
  
- 
- 
-      "or": "o",
-      "create": "Añadir nuevo campo"
-    },
     "entity": {
       "options": {
         "contact": "Contacto",
