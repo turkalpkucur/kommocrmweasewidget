@@ -11,14 +11,14 @@
       "title": "Settings",
       "desc": "Set up the form for creating a new task"
     },
-    "base": "Automatically create tasks within a selected profile when it's your client's birthday.",
+ 
     "not_active": "Install the widget to begin setup.",
     "lead": "Lead",
     "contact": "Contact",
     "field": {
-      "title": "Birthday field",
-      "desc": "Select a field that contains the birthday date",
-      "tip": "Select a field type \"date\", \"birthday\" or \"date and time\", or create a new field by clicking \"Add new field\"",
+    
+ 
+ 
       "or": "or",
       "create": "Add new field"
     },

@@ -11,14 +11,14 @@
       "title": "Configurações",
       "desc": "Defina o formulário para criar uma nova tarefa"
     },
-    "base": "Automaticamente cria tarefas dentro de um perfil selecionado no dia do aniversário do seu cliente.",
+ 
     "not_active": "Instale o widget para começar a configuração",
     "lead": "Lead",
     "contact": "Contato",
     "field": {
-      "title": "Campo de aniversário",
-      "desc": "Selecione um campo que contenha a data de aniversário",
-      "tip": "Selecione um tipo de campo “data”, “aniversário” ou “data e hora”, ou crie um novo campo ao clicar “adicionar novo campo”.",
+ 
+ 
+ 
       "or": "ou ",
       "create": "Adicionar novo campo"
     },

@@ -8,9 +8,7 @@
       {% endif %}
     </div>
   {% else %}
-    <div class="kommo-text--settings">
-      {{ langs.base }}
-    </div>
+ 
 
     <form id="{{ prefix }}-settings__form">
       <input type="hidden" name="params[templates]" id="{{ prefix }}-templates-list">
@@ -20,16 +18,7 @@
       </div>
       <div class="kommo-settings__content">
 
-        <div class="kommo-settings__content__title">
-          <h4 class="kommo-h4--settings">
-            {{ langs.field.title }}
-            <span class="kommo__tooltip-wrap">
-              <img width="10px" src="{{ icons.path }}/question.svg" class="kommo__tooltip-question"/>
-              <span class="kommo__settings__tooltip">{{ langs.field.tip }}</span>
-            </span>
-          </h4>
-          <p class="kommo-p--settings">{{ langs.field.desc }}</p>
-        </div>
+ 
         <div class="kommo-settings__content__value">
           {{ field }}
           <div class="{{ prefix }}__field-create">{{ langs.field.or }}<span class="{{ prefix }}__field-create__link">{{ langs.field.create }}</span>
