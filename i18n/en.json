@@ -1,9 +1,9 @@
 {
   "widget": {
     "name": "Birthday",
-    "short_description": "Happy Birthday widget",
-    "description": "The Happy Birthday widget assigns a task on a client's birthday, so you never miss an important date.",
-    "tour_description": "The Happy Birthday widget assigns a task on a client's birthday, so you never miss an important date."
+    "short_description": "Wease Insurance entegration widget.",
+    "description": "Wease Insurance entegration widget.",
+    "tour_description": "Wease Insurance entegration widget."
   },
   "settings": {
     "custom": "Settings",
@@ -78,9 +78,9 @@
       "create": "Create a field"
     },
     "widget_panel": {
-      "birthday": "Today is your client's birthday!",
+      "birthday": "Issue a policy from Wease Insurance",
       "not_birthday": "No birthdays today. Check back tomorrow!",
-      "congratulate": "Send a birthday wish"
+      "congratulate": "Issue a policy!"
     }
   }
 }
